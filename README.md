@@ -18,7 +18,7 @@ Offline video compress & speed-up for iOS. Set duration and size limits, pick ov
 
 Videos never leave your device. See the full policy:
 
-**https://yeegeek.github.io/iZipClip/privacy.html**
+**https://yeegeek.github.io/izipclip/privacy.html**
 
 Source file: [`docs/privacy.html`](docs/privacy.html)
 
@@ -53,7 +53,7 @@ docs/privacy.html        Privacy policy (GitHub Pages)
 ## App Store notes · 上架
 
 - Promotional copy / keywords: use “iZip Clip” in English listings and “缩影” in Chinese.
-- Privacy Policy URL: `https://yeegeek.github.io/iZipClip/privacy.html`
+- Privacy Policy URL: `https://yeegeek.github.io/izipclip/privacy.html`
 - Photos usage strings are localized in `ZipClip/InfoPlist.xcstrings`
 
 ## License
