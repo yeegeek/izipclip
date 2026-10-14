@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy · 隐私政策 — iZip Clip / 缩影</title>
+  <style>
+    :root {
+      --bg: #0f1114;
+      --fg: #f2f2f0;
+      --muted: #9a9a94;
+      --accent: #f5c16c;
+      --card: #1a1d22;
+      --line: rgba(255, 255, 255, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "SF Pro Text", "PingFang SC", "Helvetica Neue", sans-serif;
+      background: radial-gradient(1200px 600px at 20% -10%, #2a2418 0%, var(--bg) 55%);
+      color: var(--fg);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 22px 80px;
+    }
+    .brand {
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      font-weight: 650;
+      margin: 0 0 8px;
+    }
+    .updated {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 28px;
+    }
+    .lang {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 32px;
+    }
+    .lang a {
+      color: var(--fg);
+      text-decoration: none;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 6px 14px;
+      font-size: 0.9rem;
+      background: var(--card);
+    }
+    .lang a:hover { border-color: var(--accent); color: var(--accent); }
+    section {
+      background: color-mix(in srgb, var(--card) 88%, transparent);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 22px 22px 8px;
+      margin-bottom: 18px;
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin: 0 0 10px;
+    }
+    p, li { color: #dddcd6; }
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: 6px; }
+    footer {
+      margin-top: 36px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    a { color: var(--accent); }
+    .en { display: none; }
+    body.show-en .zh { display: none; }
+    body.show-en .en { display: block; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">iZip Clip · 缩影</div>
+    <h1 class="zh">隐私政策</h1>
+    <h1 class="en">Privacy Policy</h1>
+    <p class="updated zh">最近更新：2026 年 3 月 14 日</p>
+    <p class="updated en">Last updated: March 14, 2026</p>
+
+    <div class="lang">
+      <a href="#" onclick="document.body.classList.remove('show-en'); return false;">中文</a>
+      <a href="#" onclick="document.body.classList.add('show-en'); return false;">English</a>
+    </div>
+
+    <section class="zh">
+      <h2>概述</h2>
+      <p>缩影（英文名 iZip Clip）是一款在您设备本地运行的视频压缩与加速工具。我们重视您的隐私：应用不会要求注册账号，也不会把您的视频上传到我们的服务器。</p>
+    </section>
+    <section class="en">
+      <h2>Overview</h2>
+      <p>iZip Clip (Chinese name 缩影) is a video compression and speed-up tool that runs entirely on your device. We respect your privacy: the app does not require an account and does not upload your videos to our servers.</p>
+    </section>
+
+    <section class="zh">
+      <h2>我们收集哪些信息</h2>
+      <p><strong>我们不收集、不传输、不出售您的个人数据或视频内容。</strong></p>
+      <ul>
+        <li>视频处理仅在本机完成。</li>
+        <li>应用不会建立账号体系，也没有分析/广告追踪 SDK。</li>
+        <li>偏好设置（如目标时长、体积、是否删除原片）仅保存在您设备上的本地存储中。</li>
+      </ul>
+    </section>
+    <section class="en">
+      <h2>Information We Collect</h2>
+      <p><strong>We do not collect, transmit, or sell your personal data or video content.</strong></p>
+      <ul>
+        <li>All video processing happens on your device.</li>
+        <li>There is no account system and no analytics or advertising SDK.</li>
+        <li>Preferences (target duration, size, delete-originals) are stored only in local storage on your device.</li>
+      </ul>
+    </section>
+
+    <section class="zh">
+      <h2>相册权限</h2>
+      <p>应用需要访问系统「照片」库，以便：</p>
+      <ul>
+        <li>读取本地视频，找出超出您设定时长或体积的项目；</li>
+        <li>将处理后的视频保存回相册；</li>
+        <li>在您开启「删原片」并经系统确认后，删除对应原视频。</li>
+      </ul>
+      <p>我们不会将相册中的内容上传到任何远程服务。若您启用了 iCloud 照片，删除或保存操作可能由 Apple 系统同步到 iCloud，这属于 Apple 的服务，不受我们控制。</p>
+    </section>
+    <section class="en">
+      <h2>Photos Access</h2>
+      <p>The app requests access to the system Photos library to:</p>
+      <ul>
+        <li>Read local videos and find items that exceed your duration or size limits;</li>
+        <li>Save processed videos back to Photos;</li>
+        <li>Delete the original videos if you enable “Delete originals” and confirm in the system dialog.</li>
+      </ul>
+      <p>We do not upload Photos content to any remote service. If iCloud Photos is enabled, Apple may sync save/delete actions to iCloud. That sync is provided by Apple and is outside our control.</p>
+    </section>
+
+    <section class="zh">
+      <h2>网络</h2>
+      <p>核心功能设计为离线使用。应用本身不会为了处理视频而向我们的服务器发送数据。系统组件（例如 iCloud 照片同步）可能在您的设备设置允许时使用网络，这并非由缩影发起的数据收集。</p>
+    </section>
+    <section class="en">
+      <h2>Network</h2>
+      <p>Core features are designed to work offline. The app does not send your videos to our servers for processing. System components (such as iCloud Photos sync) may use the network when allowed by your device settings; that is not data collection initiated by iZip Clip.</p>
+    </section>
+
+    <section class="zh">
+      <h2>儿童隐私</h2>
+      <p>本应用不面向 13 岁以下儿童，也不会故意收集儿童的个人信息。</p>
+    </section>
+    <section class="en">
+      <h2>Children’s Privacy</h2>
+      <p>The app is not directed at children under 13, and we do not knowingly collect personal information from children.</p>
+    </section>
+
+    <section class="zh">
+      <h2>政策变更</h2>
+      <p>我们可能会更新本隐私政策。更新后的版本将发布在本页面，并标注最近更新日期。若变更较为重要，我们会尽量通过应用商店说明等方式提示。</p>
+    </section>
+    <section class="en">
+      <h2>Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. The latest version will be posted on this page with an updated date. For material changes, we will try to provide notice through App Store listing updates where appropriate.</p>
+    </section>
+
+    <section class="zh">
+      <h2>联系我们</h2>
+      <p>如对本隐私政策有疑问，请通过 GitHub 仓库 Issues 联系：</p>
+      <p><a href="https://github.com/yeegeek/iZipClip">https://github.com/yeegeek/iZipClip</a></p>
+    </section>
+    <section class="en">
+      <h2>Contact</h2>
+      <p>If you have questions about this Privacy Policy, please open an issue on the GitHub repository:</p>
+      <p><a href="https://github.com/yeegeek/iZipClip">https://github.com/yeegeek/iZipClip</a></p>
+    </section>
+
+    <footer class="zh">© iZip Clip / 缩影. 保留所有权利。</footer>
+    <footer class="en">© iZip Clip / 缩影. All rights reserved.</footer>
+  </main>
+</body>
+</html>
